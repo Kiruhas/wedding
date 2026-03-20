@@ -1,7 +1,6 @@
 import AddressData from '@/components/AddressData'
 import Feedback from '@/components/Feedback'
 import Header from '@/components/Header'
-import Map from '@/components/Map'
 import Menu from '@/components/Menu'
 import Presents from '@/components/Presents'
 import Rules from '@/components/Rules'
@@ -32,7 +31,6 @@ function App() {
 			>
 				<Header />
 				<AddressData />
-				<Map />
 				<Menu />
 				<Presents />
 				<Rules />
