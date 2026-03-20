@@ -12,7 +12,7 @@ const Header = () => {
 				display: 'flex',
 				flexDirection: 'column',
 				justifyContent: 'flex-end',
-				backgroundImage: "url('/main.png')",
+				backgroundImage: "url('/wedding/main.png')",
 				backgroundRepeat: 'no-repeat',
 				backgroundPosition: 'center',
 				backgroundSize: {

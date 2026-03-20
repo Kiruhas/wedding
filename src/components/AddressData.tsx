@@ -10,7 +10,7 @@ const AddressData = () => {
 				display: 'flex',
 				flexDirection: 'column',
 				alignItems: 'center',
-				backgroundImage: "url('/background-1.png')",
+				backgroundImage: "url('/wedding/background-1.png')",
 				backgroundRepeat: 'no-repeat',
 				backgroundPosition: 'center',
 				backgroundSize: 'cover',
