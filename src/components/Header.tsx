@@ -71,7 +71,8 @@ const Header = () => {
 					variant='h6'
 					sx={{
 						fontFamily: 'SweetMavka, sans-serif',
-						mb: 4
+						fontSize: '1rem',
+						mb: 2
 					}}
 				>
 					Праздник соединения двух любящих сердец
