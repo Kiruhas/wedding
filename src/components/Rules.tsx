@@ -18,6 +18,20 @@ const Rules = () => {
 				py: 4
 			}}
 		>
+			<Box
+				sx={{
+					position: 'absolute',
+					width: '100%',
+					height: '100%',
+					backgroundImage: `
+          url('/wedding/schedule.png')
+        `,
+					backgroundRepeat: 'no-repeat',
+					backgroundSize: 'cover',
+					opacity: 0.3,
+					zIndex: 0
+				}}
+			/>
 			<Typography
 				variant='h3'
 				sx={{
@@ -26,7 +40,8 @@ const Rules = () => {
 						xs: '2rem',
 						md: '3rem'
 					},
-					px: 6
+					px: 6,
+					zIndex: 1
 				}}
 			>
 				Атмосфера
@@ -41,7 +56,8 @@ const Rules = () => {
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Наша свадьба - современное торжество, поэтому мы отказались от стандартных конкурсов и традиций, которые кого‑то
@@ -58,7 +74,8 @@ const Rules = () => {
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Мы предлагаем свободную атмосферу, где каждый сможет участвовать ровно столько, сколько хочется: танцевать,
@@ -74,7 +91,8 @@ const Rules = () => {
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Будем благодарны, если вы воздержитесь от криков "Горько", ведь поцелуй — это знак выражения чувств, а настоящие
