@@ -22,7 +22,6 @@ function App() {
 				maxWidth={false}
 				sx={{
 					position: 'relative',
-					mb: 5,
 					maxWidth: 800,
 					width: '100%',
 					mx: 'auto',
@@ -35,18 +34,6 @@ function App() {
 				<Presents />
 				<Rules />
 				<WearStyle />
-			</Container>
-
-			<Container
-				maxWidth={false}
-				sx={{
-					position: 'relative',
-					mb: 5,
-					maxWidth: 800,
-					width: '100%',
-					mx: 'auto'
-				}}
-			>
 				<Feedback />
 				<YandexForm />
 			</Container>

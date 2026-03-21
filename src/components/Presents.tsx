@@ -10,13 +10,67 @@ const Presents = () => {
 				display: 'flex',
 				flexDirection: 'column',
 				alignItems: 'center',
-				backgroundImage: "url('/wedding/background-3.png')",
+				py: 4,
+				backgroundImage: `
+      linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+      url('/wedding/5000.png')
+    `,
 				backgroundRepeat: 'no-repeat',
 				backgroundPosition: 'center',
-				backgroundSize: 'cover',
-				py: 8
+				backgroundSize: '100% 100%'
 			}}
 		>
+			<Box
+				sx={{
+					position: 'absolute',
+					width: '100%',
+					height: '100%',
+					backgroundImage: `
+          url('/wedding/present_flower.png')
+        `,
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: `
+          10% 0%
+        `,
+					backgroundSize: '60px 60px',
+					opacity: 0.7,
+					zIndex: 0
+				}}
+			/>
+			<Box
+				sx={{
+					position: 'absolute',
+					width: '100%',
+					height: '100%',
+					backgroundImage: `
+          url('/wedding/present_no-alcohol.png')
+        `,
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: `
+          90% 41%
+        `,
+					backgroundSize: '60px 60px',
+					opacity: 0.7,
+					zIndex: 0
+				}}
+			/>
+			<Box
+				sx={{
+					position: 'absolute',
+					width: '100%',
+					height: '100%',
+					backgroundImage: `
+          url('/wedding/present_smile.png')
+        `,
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: `
+          5% 78%
+        `,
+					backgroundSize: '60px 60px',
+					opacity: 0.7,
+					zIndex: 0
+				}}
+			/>
 			<Typography
 				variant='h3'
 				sx={{
@@ -25,7 +79,8 @@ const Presents = () => {
 						xs: '2rem',
 						md: '3rem'
 					},
-					px: 6
+					px: 6,
+					zIndex: 1
 				}}
 			>
 				Подарки
@@ -40,7 +95,8 @@ const Presents = () => {
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Ваше присутствие в день нашей свадьбы - самый значимый подарок для нас! Нам не нужны пышные букеты, 1-3 цветка,
@@ -56,7 +112,8 @@ const Presents = () => {
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Так же наша семья минимизировала количество алкоголя в жизни, поэтому мы будем рады любой другой альтернативе,
@@ -72,7 +129,8 @@ const Presents = () => {
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Самое важное, что вам необходимо принести с собой - ваши улыбки и искренние эмоции.

@@ -15,7 +15,7 @@ const Menu = () => {
 				backgroundRepeat: 'no-repeat',
 				backgroundPosition: 'center',
 				backgroundSize: 'cover',
-				py: 8
+				py: 4
 			}}
 		>
 			<Typography
@@ -41,12 +41,66 @@ const Menu = () => {
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Концепция нашего мероприятия 25.04.2026 - свадебный фуршет-барбекю. Вам будут предложены различные варианты
 				закусок, свиной и куриный шашлыки, свежие овощи и фрукты, а в конце мероприятия – свадебные сладости.
 			</Typography>
+			<Box
+				sx={{
+					position: 'absolute',
+					width: '100%',
+					height: '100%',
+					backgroundImage: `
+          url('/wedding/food_grilled-vegetables.png')
+        `,
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: `
+          90% 1%
+        `,
+					backgroundSize: '60px 60px',
+					opacity: 0.7,
+					zIndex: 0
+				}}
+			/>
+			<Box
+				sx={{
+					position: 'absolute',
+					width: '100%',
+					height: '100%',
+					backgroundImage: `
+          url('/wedding/food_lemonade.png')
+        `,
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: `
+          10% 30%
+        `,
+					backgroundSize: '60px 60px',
+					opacity: 0.7,
+					zIndex: 0
+				}}
+			/>
+			<Box
+				sx={{
+					position: 'absolute',
+					width: '100%',
+					height: '100%',
+					backgroundImage: `
+          url('/wedding/food_cake.png'),
+          url('/wedding/food_cake.png')
+        `,
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: `
+          8% 0%,
+          80% 55%
+        `,
+					backgroundSize: '60px 60px',
+					opacity: 0.7,
+					zIndex: 0
+				}}
+			/>
 			<Typography
 				variant='body1'
 				sx={{
@@ -57,7 +111,8 @@ const Menu = () => {
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Вас ждут лёгкие напитки — вино, шампанское, пиво, а для тех, кто хочет сохранить в памяти каждое мгновение
@@ -73,12 +128,13 @@ const Menu = () => {
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
-				Мы постарались выбрать напитки с небольшим градусом, чтобы исключить/уменьшить усталость раньше времени, сладкий
-				сон в тарелке с шашлыком, буйство и драки, сопровождающие классические свадьбы. Если у вас есть свои вкусовые
-				предпочтения, то можете захватить бутылочку любимого напитка с собой.
+				p.s. Мы постарались выбрать напитки с небольшим градусом, чтобы исключить/уменьшить усталость раньше времени,
+				сладкий сон в тарелке с шашлыком, буйство и драки, сопровождающие классические свадьбы. Если у вас есть свои
+				вкусовые предпочтения, то можете захватить бутылочку любимого напитка с собой.
 			</Typography>
 		</Box>
 	)

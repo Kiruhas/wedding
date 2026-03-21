@@ -26,7 +26,8 @@ const AddressData = () => {
 						xs: '2rem',
 						md: '3rem'
 					},
-					px: 6
+					px: 6,
+					zIndex: 1
 				}}
 			>
 				Дорогой Гость!
@@ -41,11 +42,13 @@ const AddressData = () => {
 						md: '2rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Приглашаем Вас разделить вместе с нами радость создания нашей семьи.
 			</Typography>
+
 			<Typography
 				variant='h4'
 				sx={{
@@ -56,11 +59,22 @@ const AddressData = () => {
 						md: '2.5rem'
 					},
 					pt: 8,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				24.04.2026, 15:00
 			</Typography>
+			<Box
+				component='img'
+				src={'/wedding/rings.png'}
+				alt='Кольца'
+				sx={{
+					width: 120,
+					height: 120,
+					objectFit: 'contain'
+				}}
+			/>
 			<Typography
 				variant='h6'
 				sx={{
@@ -70,8 +84,8 @@ const AddressData = () => {
 						xs: '1.5rem',
 						md: '2rem'
 					},
-					pt: 1,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Торжественная роспись
@@ -86,7 +100,8 @@ const AddressData = () => {
 						md: '1.5rem'
 					},
 					pt: 1,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Отдел № 1 Управления ЗАГС по Одинцовскому городскому округу, городским округам Власиха и Краснознаменск. ул.
@@ -102,11 +117,22 @@ const AddressData = () => {
 						md: '2.5rem'
 					},
 					pt: 8,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				25.04.2026, 14:00
 			</Typography>
+			<Box
+				component='img'
+				src={'/wedding/bbq.png'}
+				alt='Кольца'
+				sx={{
+					width: 120,
+					height: 120,
+					objectFit: 'contain'
+				}}
+			/>
 			<Typography
 				variant='h5'
 				sx={{
@@ -116,8 +142,8 @@ const AddressData = () => {
 						xs: '1.8rem',
 						md: '2rem'
 					},
-					pt: 1,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Свадебный фуршет-барбекю
@@ -132,7 +158,8 @@ const AddressData = () => {
 						md: '1.5rem'
 					},
 					pt: 1,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				г. Одинцово, деревня Губкино, дом 15
@@ -147,7 +174,8 @@ const AddressData = () => {
 						md: '1.5rem'
 					},
 					pt: 1,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Именно здесь мы проведём семейный праздник
