@@ -56,8 +56,7 @@ const YandexForm = () => {
 						xs: '1.5rem',
 						md: '1.8rem'
 					},
-					px: 4,
-					zIndex: 1
+					px: 4
 				}}
 			>
 				Для точного определения количества гостей и предпочтений каждого - пройдите, пожалуйста, опрос
@@ -66,8 +65,7 @@ const YandexForm = () => {
 				variant='contained'
 				onClick={openModal}
 				sx={{
-					my: 4,
-					zIndex: 1
+					my: 4
 				}}
 			>
 				Пройти опрос
