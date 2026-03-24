@@ -29,7 +29,7 @@ const WearStyle = () => {
 					backgroundPosition: `
           10% 5%
         `,
-					backgroundSize: '80px 80px',
+					backgroundSize: '90px 90px',
 					opacity: 0.7,
 					zIndex: 0
 				}}
@@ -44,9 +44,9 @@ const WearStyle = () => {
         `,
 					backgroundRepeat: 'no-repeat',
 					backgroundPosition: `
-          115% 0%
+          90% 5%
         `,
-					backgroundSize: '200px 110px',
+					backgroundSize: '90px 90px',
 					opacity: 0.8,
 					zIndex: 0
 				}}
