@@ -55,16 +55,30 @@ const YandexForm = () => {
 			<Box
 				component='img'
 				src={'/wedding/we.jpg'}
-				alt='Кольца'
+				alt='Оля и Кирилл'
 				sx={{
 					width: '90%',
 					maxWidth: '500px',
 					height: 'auto',
 					borderRadius: '25%',
-					my: 2,
+					mt: 2,
 					boxShadow: '0 10px 30px rgba(0, 0, 0, 0.4)'
 				}}
 			/>
+			<Typography
+				variant='h6'
+				sx={{
+					fontFamily: 'Cormorant Infant, serif',
+					textAlign: 'center',
+					fontSize: {
+						xs: '1.5rem',
+						md: '1.8rem'
+					},
+					px: 4
+				}}
+			>
+				Ваши Оля и Кирилл
+			</Typography>
 		</Box>
 	)
 }
