@@ -17,15 +17,50 @@ const WearStyle = () => {
 				py: 8
 			}}
 		>
+			<Box
+				sx={{
+					position: 'absolute',
+					width: '100%',
+					height: '100%',
+					backgroundImage: `
+          url('/wedding/dresscode_1.png')
+        `,
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: `
+          10% 5%
+        `,
+					backgroundSize: '80px 80px',
+					opacity: 0.7,
+					zIndex: 0
+				}}
+			/>
+			<Box
+				sx={{
+					position: 'absolute',
+					width: '100%',
+					height: '100%',
+					backgroundImage: `
+          url('/wedding/dresscode_2.png')
+        `,
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: `
+          115% 0%
+        `,
+					backgroundSize: '200px 110px',
+					opacity: 0.8,
+					zIndex: 0
+				}}
+			/>
 			<Typography
 				variant='h3'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					fontSize: {
 						xs: '2rem',
 						md: '3rem'
 					},
-					px: 6
+					px: 6,
+					zIndex: 1
 				}}
 			>
 				Дресс-код
@@ -33,14 +68,15 @@ const WearStyle = () => {
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				ОТСУТСТВУЕТ
@@ -48,14 +84,15 @@ const WearStyle = () => {
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
 						md: '1.8rem'
 					},
 					pt: 3,
-					px: 4
+					px: 4,
+					zIndex: 1
 				}}
 			>
 				Одевайтесь по погоде, чтобы было тепло и комфортно находиться на улице

@@ -11,7 +11,6 @@ type TimeLeft = {
 }
 
 type Props = {
-	/** Передавай дату уже с таймзоной */
 	target: string
 }
 
@@ -52,7 +51,7 @@ const SlideUnit: React.FC<SlideUnitProps> = ({ value, label, delay = 0 }) => {
 				elevation={4}
 				sx={{
 					width: '100%',
-					aspectRatio: '1 / 1.1', // одинаковая форма
+					aspectRatio: '1 / 1.1',
 					overflow: 'hidden',
 					borderRadius: 3,
 					display: 'flex',
@@ -117,7 +116,7 @@ export const CountdownSlide: React.FC<Props> = ({ target }) => {
 			sx={{
 				width: '100%',
 				display: 'grid',
-				gridTemplateColumns: 'repeat(5, 1fr)', // 5 одинаковых колонок
+				gridTemplateColumns: 'repeat(5, 1fr)',
 				gap: { xs: 2, sm: 3, md: 5 }
 			}}
 		>

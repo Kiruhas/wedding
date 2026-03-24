@@ -1,6 +1,27 @@
 import { Box, Typography } from '@mui/material'
 
+const DICTIONARY: Record<number, string> = {
+	1: 'Дорогие Родители!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=1
+	2: 'Дорогие Родители и Брат!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=2
+	3: 'Дорогие Дедушка и Бабушка!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=3
+	4: 'Дорогой Сергей!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=4
+	5: 'Дорогая Бабушка!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=5
+	6: 'Дорогие Сергей, Елена и Екатерина!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=6
+	7: 'Дорогие Антонина, Юлия и Василий!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=7
+	8: 'Дорогие Алексей и Виктория!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=8
+	9: 'Дорогие Сергей, Татьяна и Андрей!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=9
+	10: 'Дорогие Елена, Александр и Светлана!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=10
+	11: 'Дорогой Николай!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=11
+	12: 'Дорогая Алла!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=12
+	13: 'Дорогой Максим!' // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=13
+}
+
 const AddressData = () => {
+	const query = new URLSearchParams(window.location.search)
+	const guestNumber = Number(query.get('guest'))
+
+	const guest = guestNumber ? (DICTIONARY[guestNumber] ?? 'Дорогой Гость!') : 'Дорогой Гость!'
+
 	return (
 		<Box
 			component='section'
@@ -19,9 +40,9 @@ const AddressData = () => {
 			}}
 		>
 			<Typography
-				variant='h3'
+				variant='h4'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					fontSize: {
 						xs: '2rem',
 						md: '3rem'
@@ -30,12 +51,12 @@ const AddressData = () => {
 					zIndex: 1
 				}}
 			>
-				Дорогой Гость!
+				{guest}
 			</Typography>
 			<Typography
 				variant='h6'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
@@ -52,7 +73,7 @@ const AddressData = () => {
 			<Typography
 				variant='h4'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '2rem',
@@ -78,10 +99,10 @@ const AddressData = () => {
 			<Typography
 				variant='h6'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
-						xs: '1.5rem',
+						xs: '1.8rem',
 						md: '2rem'
 					},
 					px: 4,
@@ -93,7 +114,7 @@ const AddressData = () => {
 			<Typography
 				variant='h6'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1rem',
@@ -110,7 +131,7 @@ const AddressData = () => {
 			<Typography
 				variant='h4'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '2rem',
@@ -136,7 +157,7 @@ const AddressData = () => {
 			<Typography
 				variant='h5'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.8rem',
@@ -151,7 +172,7 @@ const AddressData = () => {
 			<Typography
 				variant='h6'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1rem',
@@ -167,7 +188,7 @@ const AddressData = () => {
 			<Typography
 				variant='h6'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1rem',

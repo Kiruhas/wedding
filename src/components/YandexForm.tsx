@@ -31,7 +31,7 @@ const YandexForm = () => {
 			<Typography
 				variant='h6'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
@@ -52,6 +52,19 @@ const YandexForm = () => {
 			>
 				Пройти опрос
 			</Button>
+			<Box
+				component='img'
+				src={'/wedding/we.jpg'}
+				alt='Кольца'
+				sx={{
+					width: '90%',
+					maxWidth: '500px',
+					height: 'auto',
+					borderRadius: '25%',
+					my: 2,
+					boxShadow: '0 10px 30px rgba(0, 0, 0, 0.4)'
+				}}
+			/>
 		</Box>
 	)
 }

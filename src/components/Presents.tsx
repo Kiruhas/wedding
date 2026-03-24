@@ -74,7 +74,7 @@ const Presents = () => {
 			<Typography
 				variant='h3'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					fontSize: {
 						xs: '2rem',
 						md: '3rem'
@@ -88,7 +88,7 @@ const Presents = () => {
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
@@ -105,7 +105,7 @@ const Presents = () => {
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
@@ -116,13 +116,13 @@ const Presents = () => {
 					zIndex: 1
 				}}
 			>
-				Так же наша семья минимизировала количество алкоголя в жизни, поэтому мы будем рады любой другой альтернативе,
+				Также наша семья минимизировала количество алкоголя в жизни, поэтому мы будем рады любой другой альтернативе,
 				которая необременительна для Вас и вашей семьи.
 			</Typography>
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',

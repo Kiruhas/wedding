@@ -22,12 +22,12 @@ const Header = () => {
 			}}
 		>
 			<Typography
-				variant='h3'
+				variant='h4'
 				sx={{
 					position: 'absolute',
 					right: 24,
 					top: 24,
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					fontSize: {
 						xs: '2rem',
 						md: '3rem'
@@ -51,7 +51,11 @@ const Header = () => {
 				<Typography
 					variant='h6'
 					sx={{
-						fontFamily: 'SweetMavka, sans-serif'
+						fontFamily: 'Cormorant Infant, serif',
+						fontSize: {
+							xs: '1.5rem',
+							md: '2rem'
+						}
 					}}
 				>
 					24.04.2026
@@ -59,7 +63,11 @@ const Header = () => {
 				<Typography
 					variant='h6'
 					sx={{
-						fontFamily: 'SweetMavka, sans-serif'
+						fontFamily: 'Cormorant Infant, serif',
+						fontSize: {
+							xs: '1.5rem',
+							md: '2rem'
+						}
 					}}
 				>
 					25.04.2026
@@ -70,7 +78,7 @@ const Header = () => {
 				<Typography
 					variant='h6'
 					sx={{
-						fontFamily: 'SweetMavka, sans-serif',
+						fontFamily: 'Cormorant Infant, serif',
 						fontSize: '1rem',
 						mb: 2
 					}}

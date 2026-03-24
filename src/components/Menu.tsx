@@ -21,7 +21,7 @@ const Menu = () => {
 			<Typography
 				variant='h3'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					fontSize: {
 						xs: '2rem',
 						md: '3rem'
@@ -34,7 +34,7 @@ const Menu = () => {
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
@@ -104,7 +104,7 @@ const Menu = () => {
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
@@ -121,7 +121,7 @@ const Menu = () => {
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',

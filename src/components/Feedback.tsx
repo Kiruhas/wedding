@@ -37,7 +37,7 @@ const Feedback = () => {
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
@@ -52,7 +52,7 @@ const Feedback = () => {
 			<Typography
 				variant='body1'
 				sx={{
-					fontFamily: 'SweetMavka, sans-serif',
+					fontFamily: 'Cormorant Infant, serif',
 					textAlign: 'center',
 					fontSize: {
 						xs: '1.5rem',
