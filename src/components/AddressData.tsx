@@ -13,7 +13,8 @@ const DICTIONARY: Record<number, string> = {
 	10: 'Дорогие Елена, Александр и Светлана!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=10
 	11: 'Дорогой Николай!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=11
 	12: 'Дорогая Алла!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=12
-	13: 'Дорогой Максим!' // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=13
+	13: 'Дорогой Максим!', // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=13
+	14: 'Дорогие Роман и Виктория!' // https://kiruhas.github.io/wedding/?qid=merry_wedding_2026&guest=14
 }
 
 const AddressData = () => {
@@ -42,6 +43,7 @@ const AddressData = () => {
 			<Typography
 				variant='h4'
 				sx={{
+					textAlign: 'center',
 					fontFamily: 'Cormorant Infant, serif',
 					fontSize: {
 						xs: '2rem',
